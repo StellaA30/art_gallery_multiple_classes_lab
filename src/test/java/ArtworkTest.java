@@ -12,9 +12,7 @@ public class ArtworkTest {
         artwork = new Artwork("Mona Lisa", "Da Vinci");
     }
 
-//    public void hasName(){
-//        assertThat(ginger.getName()).isEqualTo("Ginger");
-//    }
+    
     @Test
     public void hasTitle(){
         assertThat(artwork.getTitle()).isEqualTo("Mona Lisa");
