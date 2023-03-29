@@ -28,7 +28,7 @@ public class Gallery {
     }
 
 //    add artwork method
-    public void addArtworks(Artwork artwork){
+    public void addArtworks(Artwork artwork) {
         this.artworks.add(artwork);
     }
 
