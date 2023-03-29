@@ -41,5 +41,18 @@ public class CustomerTest {
         assertThat(customer.getWallet()).isEqualTo(500);
     }
 
-    
+    @Test
+    public void canBuyArtwork(){
+        Artwork artwork = new Artwork("Starnight", "Picasso");
+        artwork.setPrice(200);
+        customer.getWallet();
+        gallery.getTill();
+
+
+
+    }
+
+
+
+
 }

@@ -34,7 +34,7 @@ public class Customer {
             double priceOfArt = art.getPrice();
             this.wallet -= priceOfArt;
             totalTill += priceOfArt;
-
+            gallery.setTill(totalTill);
         }
 
     }
